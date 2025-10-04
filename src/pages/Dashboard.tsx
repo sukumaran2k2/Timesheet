@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { timesheetApi } from '../api/timesheetApi';
-import { WeeklyTimesheet, TimesheetEntry } from '../types';
+import type { WeeklyTimesheet, TimesheetEntry } from '../types';
 import { EditModal } from '../components/EditModal';
 import { DeleteConfirmModal } from '../components/DeleteConfirmModal';
 

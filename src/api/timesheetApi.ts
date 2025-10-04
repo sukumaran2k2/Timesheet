@@ -1,5 +1,5 @@
 import { mockTimesheetEntries, buildWeeklyTimesheets } from '../data/mockData';
-import { TimesheetEntry, WeeklyTimesheet } from '../types';
+import type { TimesheetEntry, WeeklyTimesheet } from '../types';
 
 export const timesheetApi = {
   getAllEntries: async (): Promise<TimesheetEntry[]> => {

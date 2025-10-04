@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TimesheetEntry } from '../types';
+import type { TimesheetEntry } from '../types';
 
 interface EditModalProps {
   entry: TimesheetEntry;

@@ -1,4 +1,4 @@
-import { User, TimesheetEntry, WeeklyTimesheet } from '../types';
+import type{ User, TimesheetEntry, WeeklyTimesheet } from '../types';
 
 export const mockUsers: User[] = [
   {

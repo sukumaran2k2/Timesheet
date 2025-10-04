@@ -1,5 +1,5 @@
 import { mockUsers } from '../data/mockData';
-import { AuthResponse } from '../types';
+import type { AuthResponse } from '../types';
 
 export const authApi = {
   login: async (email: string, password: string): Promise<AuthResponse> => {
