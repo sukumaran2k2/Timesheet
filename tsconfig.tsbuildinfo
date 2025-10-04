@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/authapi.ts","./src/api/timesheetapi.ts","./src/components/deleteconfirmmodal.tsx","./src/components/editmodal.tsx","./src/components/protectedroute.tsx","./src/contexts/authcontext.tsx","./src/data/mockdata.ts","./src/pages/dashboard.tsx","./src/pages/login.tsx","./src/types/index.ts"],"version":"5.9.3"}
